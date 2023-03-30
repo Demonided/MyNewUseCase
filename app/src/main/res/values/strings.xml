@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyNewUseCase</string>
+    <string name="text_get_user_name">No data</string>
+    <string name="text_save_user_name">Put data here</string>
+    <string name="b_get_user_name">get data</string>
+    <string name="b_save_user_name">save data</string>
+</resources>
