@@ -1,10 +1,11 @@
 package com.example.mynewusecase.domain.usecase
 
 import com.example.mynewusecase.domain.models.UserName
+import com.example.mynewusecase.domain.repository.UserRepository
 
-class GetUserNameUseCase {
+class GetUserNameUseCase(private val userRepository: UserRepository) {
 
     fun executive(): UserName {
-        return UserName(firstName = "Maks", lastName = "Shostak")
+        return userRepository.getName()
     }
 }
