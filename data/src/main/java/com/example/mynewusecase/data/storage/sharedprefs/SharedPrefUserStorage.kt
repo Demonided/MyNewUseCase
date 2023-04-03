@@ -1,8 +1,8 @@
-package com.example.mynewusecase.data.storage
+package com.example.mynewusecase.data.storage.sharedprefs
 
 import android.content.Context
-import com.example.mynewusecase.domain.models.SaveUserNameParam
-import com.example.mynewusecase.domain.models.UserName
+import com.example.mynewusecase.data.storage.UserStorage
+import com.example.mynewusecase.data.storage.models.User
 
 private const val SHARED_PREFS_NAME = "shared_prefs_name"
 private const val KEY_FIRST_NAME = "key_first_name"
